@@ -5,7 +5,7 @@ import Films from "@/features/movie/header/films/films";
 const Hat  = () => {
     return(
 
-        <div className="flex gap-12 w-full bg-red-600 items-center justify-center text-[40px] text-fuchsia-200 font-bold">
+        <div className="flex flex-wrap gap-12 w-full bg-red-600 items-center justify-center text-[40px] text-fuchsia-200 font-bold text-wrap">
             MovieMasterSiteProTurboProffesionalFreeOnline
             <Films/>
         </div>
